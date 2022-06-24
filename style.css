@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+
+header ul, footer p {
+    display: inline-block;
+}
+
+footer p, h4 {
+    margin: 0;
+    padding: 5px 5px;
+}
