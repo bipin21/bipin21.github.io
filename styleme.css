@@ -27,6 +27,11 @@ body {
 
 a {
     text-decoration: none;
+    color: #ff0000;
+}
+
+nav a {
+    color: #14309f;
 }
 
 a:hover {
