@@ -1,5 +1,5 @@
 ```
 Bipin Karki
 CS472 Web Application Programming 
-Home page: https://bipin21.github.io/
 ```
+Home Page: <https://bipin21.github.io>
