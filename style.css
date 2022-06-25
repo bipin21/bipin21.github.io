@@ -1,5 +1,10 @@
 body {
     text-align: center;
+    background: #98bbc9;
+}
+
+header img {
+    border-radius: 50%;
 }
 
 header ul, footer p {
