@@ -2,6 +2,9 @@ body {
     background-image: url(images/silverware.jpg);
     background-repeat: repeat;
     background-attachment: fixed;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, Serif, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .lemon-container h3 {
@@ -49,6 +52,7 @@ h3 {
 
 .footer-container {
     text-align: right;
+    font-family: monospace;
 }
 
 ul {
