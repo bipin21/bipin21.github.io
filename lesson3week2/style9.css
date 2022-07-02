@@ -1,0 +1,41 @@
+#more-float {
+    width: 500px;
+}
+
+#a, #b {
+    width: 100px;
+    height: 100px;
+    font: 30pt bold Helvetica, Arial, sans-serif;
+    line-height: 100px;
+    text-align: center;
+}
+
+#a {
+    background-color: lightblue;
+}
+
+#b {
+    background-color: pink;
+}
+
+#c {
+    background-color: lightgray;
+}
+
+
+#a {
+    float: left;
+}
+
+#b {
+    float: left;
+}
+
+#c {
+    margin-top: 100px;
+}
+
+#d {
+    background-color: lightgreen;
+    height: 100px;
+}

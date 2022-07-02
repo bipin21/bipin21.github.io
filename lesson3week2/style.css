@@ -1,0 +1,85 @@
+#outer {
+    border: 2px dashed black;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: 10px;
+    float: left;
+}
+
+
+.break {
+    clear: left;
+}
+
+/*part 2*/
+
+ul.menu {
+    background: red;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    border: 1px solid black;
+    background: white;
+    padding: 7px;
+}
+
+/*layout2*/
+#layout2 {
+    width: 500px;
+    background: lightgray;
+    padding: 10px;
+    overflow: hidden;
+    margin-block: 10px;
+}
+
+
+#layout2 h1 {
+    background-color: yellow;
+}
+
+#area1, #area2, #area3 {
+    width: 100px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#area2, #area3 {
+    background: lightblue;
+    float: right;
+}
+
+/**/
+#more-float1 {
+    width: 500px;
+}
+
+#a, #b {
+    width: 100px;
+    height: 100px;
+    font: 30pt bold Helvetica, Arial, sans-serif;
+    line-height: 100px;
+    text-align: center;
+}
+
+#a {
+    background-color: lightblue;
+    float: left;
+}
+
+#b {
+    background-color: pink;
+    float: right;
+}
+
+#c {
+    background-color: lightgray;
+}
