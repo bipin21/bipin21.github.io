@@ -1,0 +1,44 @@
+.header {
+    background: #b8dcea;
+    text-align: center;
+    padding: 5px;
+}
+
+.menus {
+    color: white;
+    background-color: #2f4f4f;
+}
+
+.columns{
+    height: 250px;
+}
+
+.column1 {
+    background: #b3b3b3;
+}
+
+.column2 {
+    background: #c3c3c3;
+}
+
+.column3 {
+    background: #d2d2d2;
+}
+
+.footer {
+    background: #385959;
+    height: 50px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .column1, .column3{
+        order: 1;
+    }
+
+    .column2 {
+        order: 2;
+    }
+}
