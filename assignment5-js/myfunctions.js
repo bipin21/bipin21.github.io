@@ -1,3 +1,7 @@
+/**
+ * @author BIPIN
+ */
+
 function myFunctionTest(expected, result) {
     var response;
     if (Array.isArray(expected)) {
@@ -95,21 +99,21 @@ function filterLongWords(words, number) {
 
 // multiply each element by 10;
 function multiplyEachElementBy10(a) {
-    return a.map(function (elem, i, array) {
+    return a.map(function (elem) {
         return elem * 10;
     });
 }
 
 // return array with all elements equal to 3;
 function getArrayWithOnlyNumber3(a) {
-    return a.filter(function (elem, i, array) {
+    return a.filter(function (elem) {
         return elem === 3;
     });
 }
 
 // return the product of all elements;
 function getProductOfArray(a) {
-    return a.reduce(function (prevValue, elem, i, array) {
+    return a.reduce(function (prevValue, elem) {
         return prevValue * elem;
     });
 }
