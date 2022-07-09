@@ -9,7 +9,7 @@
     background-color: #2f4f4f;
 }
 
-.columns{
+.columns {
     height: 250px;
 }
 
@@ -28,13 +28,11 @@
 .footer {
     background: #385959;
     height: 50px;
-    text-align: center;
     color: white;
-    padding: 10px;
 }
 
 @media only screen and (max-width: 600px) {
-    .column1, .column3{
+    .column1, .column3 {
         order: 1;
     }
 
