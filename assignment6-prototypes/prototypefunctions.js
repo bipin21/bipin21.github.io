@@ -84,7 +84,7 @@ var Student = function () {
 };
 Student.prototype = new Person();
 Student.prototype.greeting = function (major) {
-    console.log("Hey, my name is " + this.name + " and I am studying " + major);
+    console.log("Hey, my name is " + this.name + " and I am studying " + major + ".");
 }
 
 
@@ -99,9 +99,11 @@ Professor.prototype.greeting = function (department) {
 console.log("------- Student Greeting ------");
 const student1 = new Student();
 student1.initialize("Bipin", "26");
+student1.salute();
 student1.greeting("CS");
 
 console.log("------- Professor Greeting ------");
 const professor1 = new Professor();
 professor1.initialize("SAM", "40");
+professor1.salute();
 professor1.greeting("Computer Science");
