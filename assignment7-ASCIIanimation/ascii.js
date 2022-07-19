@@ -1,5 +1,5 @@
 window.onload = function () {
-
+    "use strict";
     var start = document.getElementById("start");
     var delay = 250;
     var initialValue = "";
@@ -55,11 +55,11 @@ window.onload = function () {
     }
 
     function enableElement(elem) {
-        elem.removeAttribute("disabled")
+        elem.removeAttribute("disabled");
     }
 
     function disableElement(elem) {
-        elem.setAttribute("disabled", "disabled")
+        elem.setAttribute("disabled", "disabled");
     }
 
     function playAnimation() {
