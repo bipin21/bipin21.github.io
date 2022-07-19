@@ -70,7 +70,6 @@ window.onload = function () {
         }
     }
 
-
     function animate(arr) {
         if (i === arr.length) i = 0;
         text_area.value = arr[i];
