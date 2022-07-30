@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    "use strict";
     $("#start").click(function () {
         let start = true;
         $("#maze .boundary").removeClass("youlose");
@@ -17,9 +18,9 @@ $(document).ready(function () {
                 $("#status").text("Congratulation!! You Win");
                 start = false;
             }
-        })
+        });
         $("#maze").mouseleave(function () {
             updateboundary();
-        })
+        });
     });
 })
